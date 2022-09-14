@@ -21,7 +21,7 @@ addBtn.addEventListener("click", () => {
 
 // deleteBtn event handler
 deleteBtn.addEventListener("click", () => {
-    newUl.childElementConter > 0 ? newUl.removeChild(firstElementChild) : alert("There is item to delete");
+    newUl.childElementConter > 0 ? newUl.removeChild(lastElementChild) : alert("There is item to delete");
 });
 
 // enter key and  del key event handler
